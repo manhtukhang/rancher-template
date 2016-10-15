@@ -1,0 +1,36 @@
+.catalog:
+  name: Custom Let's Encrypt
+  version: 0.1.0
+  description: Trusted SSL certificates at zero cost
+  minimum_rancher_version: v0.63.0
+  questions:
+    - variable: STAGING
+      label: Just use for test?
+      description: |
+        Select the API version used for issuing the certificate.
+        Use `True` for testing only.
+      required: true
+      type: enum
+      default: False
+      options:
+        - True
+        - False
+    - variable: EMAIL
+      label: Your Email Address
+      description: |
+        Enter the email address to use for creating the Let's Encrypt account.
+      required: true
+      type: string
+    - variable: PORT
+      label: Port
+      description: |
+        Port for host check
+      required: true
+      type: string
+    - variable: DOMAINS
+      label: Domain Names
+      description: |
+        Comma delimited list of the certificate domains starting with the Common Name.
+        E.g: `example.com,dev.example.com`.
+      required: true
+      type: string
