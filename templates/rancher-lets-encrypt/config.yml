@@ -1,0 +1,7 @@
+name: Custom Let's Encrypt
+description: |
+  Trusted SSL certificates at zero cost
+version: 0.1.0
+category: Security
+maintainer: Manh Tu Khang "<manhtukhang@gmail.com>"
+license: The MIT License
