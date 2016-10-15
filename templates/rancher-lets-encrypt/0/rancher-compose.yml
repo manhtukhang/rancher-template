@@ -27,7 +27,7 @@
         Port for host check
       required: true
       type: string
-    - variable: DOMAINS
+    - variable: SUBDOMAINS
       label: Domain Names
       description: |
         Comma delimited list of the certificate domains starting with the Common Name.
