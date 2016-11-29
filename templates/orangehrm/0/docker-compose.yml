@@ -1,3 +1,4 @@
 orangehrm:
   image: orangehrm/orangehrm
-  
+  tty: true
+  stdin_open: true
