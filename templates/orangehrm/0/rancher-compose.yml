@@ -3,4 +3,9 @@
   version: 3.2.2
   description: OrangeHRM Open Source Version
   minimum_rancher_version: v0.63.0
- 
+  questions:
+    - variable: "external_mysql"
+      description: "Link to mysql service or stack/service"
+      label: "External Mysql"
+      type: "service"
+      required: true
