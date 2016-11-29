@@ -1,0 +1,6 @@
+.catalog:
+  name: OrangeHRM
+  version: 3.2.2
+  description: OrangeHRM Open Source Version
+  minimum_rancher_version: v0.63.0
+ 
