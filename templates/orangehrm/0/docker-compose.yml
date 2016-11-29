@@ -2,3 +2,5 @@ orangehrm:
   image: orangehrm/orangehrm
   tty: true
   stdin_open: true
+  external_links:
+    - ${external_mysql}:mysqldb
